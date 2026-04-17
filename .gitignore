@@ -1,0 +1,18 @@
+# Binarios compilados
+*.out
+*.exe
+*.o
+*.a
+
+# Carpetas de build
+build/
+bin/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
