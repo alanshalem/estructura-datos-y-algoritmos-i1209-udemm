@@ -9,6 +9,8 @@ Repositorio de ejercicios de la materia **Estructuras de Datos y Algoritmos** (i
 | [clase-00-fundamentos-cpp/](clase-00-fundamentos-cpp/) | Variables, tipos, cin/cout, operadores, if/else, while, for, funciones |
 | [clase-1-pilas-stack/](clase-1-pilas-stack/) | Stack (LIFO), operaciones básicas, ejercicios con entrada de usuario |
 | [clase-2-colas-queues-structs/](clase-2-colas-queues-structs/) | Queue (FIFO), Struct, constructor, push vs emplace |
+| [clase-3-listas/](clase-3-listas/) | std::list, push/pop, remove_if, sort, merge, splice, iteradores y advance |
+| [clase-4-arboles/](clase-4-arboles/) | std::set como árbol binario de búsqueda balanceado, orden e inserción |
 
 ## Cómo compilar y ejecutar
 
