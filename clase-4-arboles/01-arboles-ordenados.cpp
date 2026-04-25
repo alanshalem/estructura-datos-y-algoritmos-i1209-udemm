@@ -13,13 +13,13 @@ using namespace std;
 
 int main()
 {
-    // Set inicializado con valores ya ordenados.
-    // Si pasáramos {30,10,50,20,40} el set igual quedaría {10,20,30,40,50}.
-    set<int> a = {10, 20, 30, 40, 50};
+    // Aunque inicialicemos con valores DESORDENADOS, el set los acomoda solo.
+    // Resultado interno: {10, 20, 30, 40, 50}
+    set<int> a = {20, 50, 30, 40, 10};
 
     auto pos = a.begin(); // iterador al menor elemento
 
-    // Mostrar el set inicial (orden ascendente)
+    // Recorrido inicial (orden ascendente, garantizado por el árbol)
     for (int n : a)
     {
         cout << n << endl;
